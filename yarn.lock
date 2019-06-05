@@ -792,33 +792,23 @@
     "@carbon/icon-helpers" "0.0.1-beta.5"
     prop-types "^15.6.2"
 
-"@carbon/import-once@10.0.0-rc.0", "@carbon/import-once@v10.0.0-rc.0":
-  version "10.0.0-rc.0"
-  resolved "https://registry.yarnpkg.com/@carbon/import-once/-/import-once-10.0.0-rc.0.tgz#d138a74207c9e6bbcceafedbcf5f862668a3fe2c"
-  integrity sha512-AWDLs1FFyQ+ldQ86l3ItC8VdM2tM8nqZf1f7pcH2DR2m+4UR42Yr1wR/EMksHgMbUIWB7bYB0odu187ERGG5NA==
-
 "@carbon/import-once@10.2.0":
   version "10.2.0"
   resolved "https://registry.yarnpkg.com/@carbon/import-once/-/import-once-10.2.0.tgz#374ffb5b39583de3c173e2df2b5302a317dd1126"
   integrity sha512-lN450opefCOTtTZJZ3vdAliD9FNeBX3K4sWswtxhZFxOW7TZpwriIq0nGqx8PgRMgHGVmktU5sJuzkims/kyFg==
-
-"@carbon/layout@10.0.0-rc.0", "@carbon/layout@v10.0.0-rc.0":
-  version "10.0.0-rc.0"
-  resolved "https://registry.yarnpkg.com/@carbon/layout/-/layout-10.0.0-rc.0.tgz#4fa2e88493c860f2d8797e7f4f4c1789fcdcb256"
-  integrity sha512-vHeKslsCivI9/Q9VcQG/Lz0hysxp7JBWXi/feQ2PK7uyrmp9i2RpIEkHzlRUNFdxM9ZwhG8rsiRkxWpMk4Ghpg==
 
 "@carbon/layout@10.2.0":
   version "10.2.0"
   resolved "https://registry.yarnpkg.com/@carbon/layout/-/layout-10.2.0.tgz#3698b5c3e76bbe3b4b979708adbff68edfbb0e66"
   integrity sha512-KT+VO7p7O0UOfvbfCw95GzJzuqCBREH1G7U3SUfCRl6kGe1KukIA4iwPDmCM1TB4JnIWPJSTZhY+LjpPSEHxgw==
 
-"@carbon/type@v10.0.0-rc.0":
-  version "10.0.0-rc.0"
-  resolved "https://registry.yarnpkg.com/@carbon/type/-/type-10.0.0-rc.0.tgz#20d8cc5a3c9b60ebb7ef3152e3fff256ff3da979"
-  integrity sha512-mXCaZKBUqtAJOPSP0BBtaI7+GnPlzRInwoCSo/F+uhvFZWPSAAHviAy3d/PWyw6Q+HtEJ9jWdzpThRRpAwDAEQ==
+"@carbon/type@10.2.0":
+  version "10.2.0"
+  resolved "https://registry.yarnpkg.com/@carbon/type/-/type-10.2.0.tgz#4ad7084b4706bf6d6ffe3c509f8c7d04f8ca951c"
+  integrity sha512-7FfuQjIVn//SDRlxsTwVW7QoNKYK0riFLWyqvxfRI/NKD8R8nCVpBYxwwLa1eRRcUejR01dzDpEcpv23paFg5A==
   dependencies:
-    "@carbon/import-once" "10.0.0-rc.0"
-    "@carbon/layout" "10.0.0-rc.0"
+    "@carbon/import-once" "10.2.0"
+    "@carbon/layout" "10.2.0"
 
 "@emotion/cache@^0.8.8":
   version "0.8.8"
