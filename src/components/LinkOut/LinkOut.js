@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { ArrowUpRight20 } from '@carbon/icons-react';
+import ArrowUpRight20 from '@carbon/icons-react/es/arrow--up-right/20';
 
 export default class LinkOut extends React.Component {
   static propTypes = {

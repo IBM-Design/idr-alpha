@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight20 } from '@carbon/icons-react';
+import ArrowRight20 from '@carbon/icons-react/es/arrow--right/20';
 import Link from 'react';
 
 const doubleCircle = (
@@ -261,12 +261,7 @@ export class HomepageHeader extends React.Component {
 
     const homeTitle = (
       <h3 className="homepage--header__title">
-        <span>
-          An authentic focus on people begins with acknowledging,{' '}
-          <span className="homepage--header__title_style">
-            we are not our users.
-          </span>{' '}
-        </span>
+        <span>We are not our users.</span>
       </h3>
     );
 

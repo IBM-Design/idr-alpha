@@ -2,13 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import { ClickableTile } from 'carbon-components-react';
-import {
-  Launch20,
-  Tools20,
-  Pdf20,
-  Document20,
-  Download20,
-} from '@carbon/icons-react';
+import Launch20 from '@carbon/icons-react/es/launch/20';
+import Tools20 from '@carbon/icons-react/es/tools/20';
+import Pdf20 from '@carbon/icons-react/es/PDF/20';
+import Document20 from '@carbon/icons-react/es/document/20';
+import Download20 from '@carbon/icons-react/es/download/20';
 
 export default class ClickTile extends React.Component {
   static propTypes = {

@@ -14,13 +14,8 @@ import {
   HeaderGlobalBar,
   HeaderGlobalAction,
 } from 'carbon-components-react/lib/components/UIShell';
-import {
-  ArrowRight20,
-  AppSwitcher20,
-  Close20,
-  Information20,
-  Search20,
-} from '@carbon/icons-react';
+import AppSwitcher20 from '@carbon/icons-react/es/app-switcher/20';
+import Close20 from '@carbon/icons-react/es/close/20';
 import {
   WebsiteFooter,
   WebsiteSwitcher,

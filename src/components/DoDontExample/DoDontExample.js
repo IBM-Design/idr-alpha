@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
-import { CheckmarkFilled24, CloseFilled16 } from '@carbon/icons-react';
+import CheckmarkFilled24 from '@carbon/icons-react/es/checkmark--filled/24';
+import CloseFilled16 from '@carbon/icons-react/es/close--filled/16';
 // need to update to CloseFilled24 once that exists
 
 export default class DoDontExample extends React.Component {

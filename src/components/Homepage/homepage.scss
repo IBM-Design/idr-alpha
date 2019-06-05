@@ -42,15 +42,11 @@
   padding-bottom: 0;
   margin-bottom: 0;
   z-index: 3;
-  max-width: 600px;
+  max-width: 300px;
 
   @include carbon--breakpoint('md') {
     width: 36%;
   }
-}
-
-.homepage--header__title_style {
-  color: $carbon--magenta-40;
 }
 
 .homepage--header img {
