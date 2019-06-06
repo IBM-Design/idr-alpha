@@ -88,9 +88,9 @@ export class HomepageHeader extends React.Component {
 
     const homeTitle = (
       <div className="homepage--header__wrapper">
-        <h3 className="homepage--header__title">
+        <h1 className="homepage--header__title">
           <span>We are not our users.</span>
-        </h3>
+        </h1>
         <p className="homepage--header__subtitle">
           An authentic focus on people begins with this recognition.
         </p>
@@ -116,19 +116,34 @@ export class HomepageHeader extends React.Component {
             <div className="ibm--row">
               <aside
                 aria-label="header callout"
-                className="ibm--col-md-8 ibm--col-lg-4 ibm--offset-lg-4">
+                className="ibm--col-md-8 ibm--col-lg-4 ibm--offset-lg-4 homepage--callout-header">
                 <h3>
-                  What is IBM Design
+                  What is Design
                   <br />
                   Research?
                 </h3>
               </aside>
               <div className="ibm--col-lg-8 ibm--col-md-5">
+                <p
+                  className="bx--type-expressive-paragraph-01"
+                  style={{ marginBottom: `3rem` }}>
+                  Design research is at the heart of Enterprise Design Thinking.
+                  If you're not practicing design research, you're not working
+                  in the Loop. Design research helps teams uncover insights and
+                  inform the experiences we create for people.
+                </p>
+
                 <p className="bx--type-expressive-paragraph-01">
-                  The practice of design research incorporates a rigorous study
-                  of people and the ecosystems in which they exist. Through the
-                  practice, teams continuously build understanding and empathy
-                  through empirical observation, experience, and making.
+                  It turns out good design really is good business. Learn more
+                  about the business impact of Enterprise Design Thinking in
+                  this{' '}
+                  <a
+                    className="forrester-link"
+                    href="https://www.ibm.com/design/thinking/static/media/Enterprise-Design-Thinking-Report.8ab1e9e1.pdf"
+                    alt="Forrester report">
+                    Forrester report
+                  </a>
+                  .
                 </p>
               </div>
             </div>
@@ -142,61 +157,60 @@ export class HomepageHeader extends React.Component {
 export class HomepageTileNav extends React.Component {
   render() {
     return (
-      <div className="homepage--callout--pink">
+      <div className="homepage--callout--tiles">
         <div className="ibm--grid">
-          <section className="ibm--row">
-            <div className="ibm--col-md-4 ibm--col-lg-4 ibm--offset-lg-4">
-              <h3 className="bx--type-heading-02">Research practice</h3>
+          <section className="ibm--row ibm--no-gutter">
+            <div class="ibm--col-sm-4 ibm--col-md-4 ibm--col-lg-4 ibm--offset-lg-4">
+              <div class="ibm--aspect-ratio bx--aspect-ratio--1x1 homepage--tile">
+                <div class="ibm--aspect-ratio--object">
+                  <div class="outside">
+                    <a class="inside">
+                      <p className="bx--type-productive-heading-05">
+                        Guiding principles
+                      </p>
+                      <p>A foundation for great experiences</p>
+                      <div className="homepage-nav-tile-wrapper">
+                        Read more <ArrowRight20 aria-label="read more" />
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </section>
-        </div>
-        <div className="ibm--grid">
-          <section className="ibm--row">
-            <a
-              aria-label="guiding principles"
-              className="ibm--col-md-4 ibm--col-lg-4 ibm--offset-lg-4 homepage--nav"
-              href="guiding-principles/principles-overview">
-              <div className="homepage--nav-tile">
-                <p>Guiding principles</p>
-                <p className="bx--type-productive-heading-05">
-                  A foundation for great experiences
-                </p>
-                <div className="homepage-nav-tile-wrapper">
-                  Read more <ArrowRight20 aria-label="read more" />
+            <div class="ibm--col-sm-4 ibm--col-md-4 ibm--col-lg-4">
+              <div class="ibm--aspect-ratio bx--aspect-ratio--1x1 homepage--tile">
+                <div class="ibm--aspect-ratio--object">
+                  <div class="outside">
+                    <a class="inside">
+                      <p className="bx--type-productive-heading-05">
+                        Research in practice
+                      </p>
+                      <p>Establish a shared vocabulary</p>
+                      <div className="homepage-nav-tile-wrapper">
+                        Read more <ArrowRight20 aria-label="read more" />
+                      </div>
+                    </a>
+                  </div>
                 </div>
               </div>
-            </a>
-
-            <a
-              aria-label="research in practice"
-              className="ibm--col-md-4 ibm--col-lg-4 homepage--nav"
-              href="/research-in-practice/practice-overview">
-              <div className="homepage--nav-tile">
-                <p>Research in practice</p>
-                <p className="bx--type-productive-heading-05">
-                  Establish a shared vocabulary
-                </p>
-
-                <div className="homepage-nav-tile-wrapper">
-                  Read more <ArrowRight20 aria-label="read more" />
+            </div>
+            <div class="ibm--col-sm-4 ibm--col-md-4 ibm--col-lg-4">
+              <div class="ibm--aspect-ratio bx--aspect-ratio--1x1 homepage--tile">
+                <div class="ibm--aspect-ratio--object">
+                  <div class="outside">
+                    <a class="inside">
+                      <p className="bx--type-productive-heading-05">
+                        Ethics &amp; Responsibilities
+                      </p>
+                      <p>The design research code of conduct</p>
+                      <div className="homepage-nav-tile-wrapper">
+                        Read more <ArrowRight20 aria-label="read more" />
+                      </div>
+                    </a>
+                  </div>
                 </div>
               </div>
-            </a>
-            <a
-              aria-label="ethics"
-              className="ibm--col-md-4 ibm--col-lg-4 homepage--nav"
-              href="/ethics">
-              <div className="homepage--nav-tile">
-                <p>Ethics</p>
-                <p className="bx--type-productive-heading-05">
-                  The design research code of conduct
-                </p>
-
-                <div className="homepage-nav-tile-wrapper">
-                  Read more <ArrowRight20 aria-label="read more" />
-                </div>
-              </div>
-            </a>
+            </div>
           </section>
         </div>
       </div>
@@ -207,37 +221,22 @@ export class HomepageTileNav extends React.Component {
 export class HomepageWhyDoIt extends React.Component {
   render() {
     return (
-      <section className="homepage--callout">
+      <section className="homepage--callout-gray10">
         <div className="ibm--grid">
           <div className="ibm--row">
             <aside
               aria-label="header callout"
               className="ibm--col-md-5 ibm--col-lg-4 ibm--offset-lg-4">
-              <h3 className="bx--type-heading-02">Why do it?</h3>
+              <h3>Why do it?</h3>
             </aside>
             <div
               className="ibm--col-lg-8 ibm--col-md-5"
               style={{ marginBottom: `2rem` }}>
               <p className="bx--type-expressive-paragraph-01">
-                Design research is at the heart of Enterprise Design Thinking.
-                If you're not practicing design research, you're not working in
-                the Loop. Whole team design research uncovers insights and
-                informs the experiences we create for people.
-              </p>
-            </div>
-
-            <div className="ibm--col-lg-8 ibm--col-md-5 ibm--offset-lg-8">
-              <p className="bx--type-expressive-paragraph-01">
-                Good design is driven by good research and it turns out good
-                design really is good business. Learn more about the business
-                impact of Enterprise Design Thinking and design research in this{' '}
-                <a
-                  className="forrester-link"
-                  href="https://www.ibm.com/design/thinking/static/media/Enterprise-Design-Thinking-Report.8ab1e9e1.pdf"
-                  alt="Forrester report">
-                  Forrester report
-                </a>
-                .
+                The practice of design research incorporates a rigorous study of
+                people and the ecosystems in which they exist. Through the
+                practice, teams continuously build understanding and empathy
+                through empirical observation, experience, and making.
               </p>
             </div>
           </div>
