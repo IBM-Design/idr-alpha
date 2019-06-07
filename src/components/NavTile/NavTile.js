@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ArrowRight20 from '@carbon/icons-react/es/arrow--right/20';
+import { Link } from 'gatsby';
 
 export default class NavTile extends React.Component {
   static PropTypes = {
@@ -14,7 +15,7 @@ export default class NavTile extends React.Component {
     const { href, title, description, children } = this.props;
     return (
       <div className="ibm--col-sm-4 ibm--col-md-3 ibm--col-lg-5 nav--tile">
-        <a href={href}>
+        <Link to={href}>
           <div className="nav--tile-content-wrapper">
             <p className="bx--type-productive-heading-05">{title}</p>
             <p>{description}</p>
@@ -23,7 +24,7 @@ export default class NavTile extends React.Component {
               Read more <ArrowRight20 aria-label="read more" />
             </div>
           </div>
-        </a>
+        </Link>
       </div>
     );
   }
