@@ -1,6 +1,6 @@
 import React from 'react';
 import ArrowRight20 from '@carbon/icons-react/es/arrow--right/20';
-import Link from 'react';
+import { Link } from 'gatsby';
 
 export class HomepageHeader extends React.Component {
   componentDidMount() {
@@ -123,7 +123,9 @@ export class HomepageHeader extends React.Component {
                   Research?
                 </h3>
               </aside>
-              <div className="ibm--col-lg-8 ibm--col-md-5">
+              <div
+                className="ibm--col-lg-8 ibm--col-md-5"
+                style={{ paddingBottom: `10rem` }}>
                 <p
                   className="bx--type-expressive-paragraph-01"
                   style={{ marginBottom: `3rem` }}>
@@ -161,55 +163,76 @@ export class HomepageTileNav extends React.Component {
         <div className="ibm--grid">
           <section className="ibm--row ibm--no-gutter">
             <div class="ibm--col-sm-4 ibm--col-md-4 ibm--col-lg-4 ibm--offset-lg-4">
-              <div class="ibm--aspect-ratio bx--aspect-ratio--1x1 homepage--tile">
-                <div class="ibm--aspect-ratio--object">
-                  <div class="outside">
-                    <a class="inside">
-                      <p className="bx--type-productive-heading-05">
-                        Guiding principles
-                      </p>
-                      <p>A foundation for great experiences</p>
-                      <div className="homepage-nav-tile-wrapper">
-                        Read more <ArrowRight20 aria-label="read more" />
+              <Link to="/guiding-principles/principles-overview">
+                <div class="ibm--aspect-ratio bx--aspect-ratio--1x1 homepage--tile-border">
+                  <div class="ibm--aspect-ratio--object homepage--tile-padding">
+                    <div class="outside homepage--tile-height">
+                      <div class="inside homepage--tile-wrapper">
+                        <p className="bx--type-productive-heading-07">
+                          Guiding
+                          <br /> principles
+                        </p>
+                        <div className="homepage--tile-subheader-wrapper">
+                          <span className="homepage--tile-subheader-text">
+                            A foundation for great experiences{' '}
+                          </span>
+                          <span>
+                            <ArrowRight20 aria-label="read more" />
+                          </span>
+                        </div>
                       </div>
-                    </a>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </Link>
             </div>
             <div class="ibm--col-sm-4 ibm--col-md-4 ibm--col-lg-4">
-              <div class="ibm--aspect-ratio bx--aspect-ratio--1x1 homepage--tile">
-                <div class="ibm--aspect-ratio--object">
-                  <div class="outside">
-                    <a class="inside">
-                      <p className="bx--type-productive-heading-05">
-                        Research in practice
-                      </p>
-                      <p>Establish a shared vocabulary</p>
-                      <div className="homepage-nav-tile-wrapper">
-                        Read more <ArrowRight20 aria-label="read more" />
+              <Link to="/research-in-practice/practice-overview">
+                <div class="ibm--aspect-ratio bx--aspect-ratio--1x1 homepage--tile-border">
+                  <div class="ibm--aspect-ratio--object homepage--tile-padding">
+                    <div class="outside homepage--tile-height">
+                      <div class="inside homepage--tile-wrapper">
+                        <p className="bx--type-productive-heading-07">
+                          Research in
+                          <br /> practice
+                        </p>
+                        <div className="homepage--tile-subheader-wrapper">
+                          <span className="homepage--tile-subheader-text">
+                            Establish a shared vocabulary{' '}
+                          </span>
+                          <span>
+                            <ArrowRight20 aria-label="read more" />
+                          </span>
+                        </div>
                       </div>
-                    </a>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </Link>
             </div>
             <div class="ibm--col-sm-4 ibm--col-md-4 ibm--col-lg-4">
-              <div class="ibm--aspect-ratio bx--aspect-ratio--1x1 homepage--tile">
-                <div class="ibm--aspect-ratio--object">
-                  <div class="outside">
-                    <a class="inside">
-                      <p className="bx--type-productive-heading-05">
-                        Ethics &amp; Responsibilities
-                      </p>
-                      <p>The design research code of conduct</p>
-                      <div className="homepage-nav-tile-wrapper">
-                        Read more <ArrowRight20 aria-label="read more" />
+              <Link to="/ethics">
+                <div class="ibm--aspect-ratio bx--aspect-ratio--1x1 homepage--tile-border">
+                  <div class="ibm--aspect-ratio--object homepage--tile-padding">
+                    <div class="outside homepage--tile-height">
+                      <div class="inside homepage--tile-wrapper">
+                        <p className="bx--type-productive-heading-07">
+                          Ethics &amp;
+                          <br /> responsibilities
+                        </p>
+                        <div className="homepage--tile-subheader-wrapper">
+                          <span className="homepage--tile-subheader-text">
+                            The design research code of conduct{' '}
+                          </span>
+                          <span>
+                            <ArrowRight20 aria-label="read more" />
+                          </span>
+                        </div>
                       </div>
-                    </a>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </Link>
             </div>
           </section>
         </div>
