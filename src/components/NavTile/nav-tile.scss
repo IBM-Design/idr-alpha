@@ -1,40 +1,45 @@
-.nav--tile {
+.overviewpage--tile-border {
   background-color: $carbon--white-0;
-  margin: 1px;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  display: flex;
-  flex-direction: space-between;
 }
 
-.nav--tile:hover {
+.overviewpage--tile-border a {
+  color: $carbon--black-100 !important;
+}
+
+.overviewpage--tile-border:hover {
   background-color: $carbon--gray-20;
-  transition: 150ms cubic-bezier(0.2, 0, 0.38, 0.9);
+  transition: $transition--base $bx--standard-easing;
 }
 
-.nav--tile:hover .nav--tile-readmore {
-  text-decoration: underline;
+.overviewpage--tile-padding {
+  padding: 1rem 1rem 1.5rem 1rem;
 }
 
-.nav--tile a {
-  text-decoration: none;
-  color: $carbon--black-100;
+.overviewpage--tile-height {
+  height: 100%;
 }
 
-.nav--tile-content-wrapper {
+.inside p {
+  line-height: 2.5rem;
+}
+
+.overviewpage--tile-wrapper div svg {
+  fill: $carbon--blue-60;
+}
+
+.overviewpage--tile-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 320px;
+  height: 100%;
 }
 
-.nav--tile-readmore {
+.overviewpage--tile-subheader-wrapper {
   display: flex;
   align-items: center;
-  color: $carbon--blue-60;
+  justify-content: space-between;
 }
 
-.nav--tile-readmore svg {
-  padding-left: 4px;
-  fill: $carbon--blue-60;
+.overviewpage--tile-subheader-text {
+  width: 197px;
 }
