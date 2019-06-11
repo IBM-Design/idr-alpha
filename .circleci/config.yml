@@ -8,7 +8,7 @@ jobs:
       - checkout
       - run:
           name: Install dependencies from offline mirror
-          command: yarn install --offline
+          command: yarn install
       - run:
           name: Confirm project can build
           command: |
