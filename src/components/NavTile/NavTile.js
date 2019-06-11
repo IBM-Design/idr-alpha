@@ -14,7 +14,7 @@ export default class NavTile extends React.Component {
   render() {
     const { href, title, description } = this.props;
     return (
-      <div class="ibm--col-sm-4 ibm--col-md-4 ibm--col-lg-4">
+      <div class="ibm--col-sm-4 ibm--col-md-4 ibm--col-lg-5">
         <Link to={href} style={{ color: `black` }}>
           <div class="ibm--aspect-ratio bx--aspect-ratio--1x1 overviewpage--tile-border">
             <div class="ibm--aspect-ratio--object overviewpage--tile-padding">
