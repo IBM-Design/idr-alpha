@@ -173,7 +173,7 @@ export class HomepageTileNav extends React.Component {
                           <br /> principles
                         </p>
                         <div className="homepage--tile-subheader-wrapper">
-                          <span className="homepage--tile-subheader-text">
+                          <span className="homepage--tile-subheader-text bx--type-body-short-02">
                             A foundation for great experiences{' '}
                           </span>
                           <span>
@@ -197,7 +197,7 @@ export class HomepageTileNav extends React.Component {
                           <br /> practice
                         </p>
                         <div className="homepage--tile-subheader-wrapper">
-                          <span className="homepage--tile-subheader-text">
+                          <span className="homepage--tile-subheader-text bx--type-body-short-02">
                             Establish a shared vocabulary{' '}
                           </span>
                           <span>
@@ -221,7 +221,7 @@ export class HomepageTileNav extends React.Component {
                           <br /> responsibilities
                         </p>
                         <div className="homepage--tile-subheader-wrapper">
-                          <span className="homepage--tile-subheader-text">
+                          <span className="homepage--tile-subheader-text bx--type-body-short-02">
                             The design research code of conduct{' '}
                           </span>
                           <span>
