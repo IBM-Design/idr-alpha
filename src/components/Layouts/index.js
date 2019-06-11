@@ -14,13 +14,8 @@ import {
   HeaderGlobalBar,
   HeaderGlobalAction,
 } from 'carbon-components-react/lib/components/UIShell';
-import {
-  ArrowRight20,
-  AppSwitcher20,
-  Close20,
-  Information20,
-  Search20,
-} from '@carbon/icons-react';
+import AppSwitcher20 from '@carbon/icons-react/es/app-switcher/20';
+import Close20 from '@carbon/icons-react/es/close/20';
 import {
   WebsiteFooter,
   WebsiteSwitcher,
@@ -279,6 +274,10 @@ class Layout extends React.Component {
                   linkText: 'IBM Design Language',
                 },
                 {
+                  href: 'https://www.ibm.com/brand',
+                  linkText: 'IBM Brand Center',
+                },
+                {
                   href: 'https://www.carbondesignsystem.com',
                   linkText: 'IBM Product Design',
                 },
@@ -297,6 +296,10 @@ class Layout extends React.Component {
                 {
                   href: 'https://www.ibm.com/services/ibmix/',
                   linkText: 'IBM iX',
+                },
+                {
+                  href: 'https://www.ibm.com/design/ai/',
+                  linkText: 'IBM Design for AI',
                 },
               ]}
             />

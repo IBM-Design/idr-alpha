@@ -10,6 +10,7 @@ const GridWrapper = ({
   flex,
   bleed,
   className,
+  noGutter,
 }) => {
   const rowClasses = classNames(
     `ibm--col-lg-${col_lg}`,
@@ -24,9 +25,17 @@ const GridWrapper = ({
   );
 
   return (
-    <div className="ibm--row">
-      <div className={rowClasses}>{children}</div>
-    </div>
+    <>
+      {noGutter === false ? (
+        <div className="ibm--row">
+          <div className={rowClasses}>{children}</div>
+        </div>
+      ) : (
+        <div className="ibm--row ibm--no-gutter">
+          <div className={rowClasses}>{children}</div>
+        </div>
+      )}
+    </>
   );
 };
 
